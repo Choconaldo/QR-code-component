@@ -1,0 +1,71 @@
+:root {
+	--color-1: #2c7dfa;
+	--color-2: #3685ff;
+	--color-3: #1f314f;
+	--color-4: #7d889e;
+	--color-5: #d5e1ef;
+	--color-6: #ffffff;
+
+	--ff-inter: "Inter", sans-serif;
+
+	--fw-1: 800;
+	--fw-2: 500;
+
+	--fs-1: 20px;
+	--fs-2: 14px;
+}
+
+/* || CSS RESET */
+
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+/* || MAIN PROJECT */
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: var(--ff-inter);
+	background-color: var(--color-5);
+}
+
+main {
+	width: 320px;
+	height: 497px;
+	background-color: var(--color-6);
+	border-radius: 20px;
+}
+
+figure {
+	margin: 16px 16px;
+}
+
+img {
+	border-radius: 10px;
+}
+
+h1 {
+	padding: 8px 26px 16px 26px;
+	text-align: center;
+	font-size: var(--fs-1);
+	font-weight: var(--fw-1);
+	color: var(--color-3);
+	line-height: 1.4;
+}
+
+p {
+	padding: 0 32px;
+	text-align: center;
+	font-size: var(--fs-2);
+	font-weight: var(--fw-2);
+	color: var(--color-4);
+	line-height: 1.3;
+}
