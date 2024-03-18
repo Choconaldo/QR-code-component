@@ -16,7 +16,6 @@
 .prettierignore
 
 # Extra temporary
-*.md
 desktop-design.jpg
 desktop-preview.jpg
 mobile-design.jpg
