@@ -37,22 +37,19 @@ body {
 	background-color: var(--color-5);
 }
 
-main {
+.card {
 	width: 320px;
 	height: 497px;
 	background-color: var(--color-6);
 	border-radius: 20px;
 }
 
-figure {
+.card-img {
 	margin: 16px 16px;
-}
-
-img {
 	border-radius: 10px;
 }
 
-h1 {
+.card-title {
 	padding: 8px 26px 16px 26px;
 	text-align: center;
 	font-size: var(--fs-1);
@@ -61,7 +58,7 @@ h1 {
 	line-height: 1.4;
 }
 
-p {
+.card-text {
 	padding: 0 32px;
 	text-align: center;
 	font-size: var(--fs-2);
